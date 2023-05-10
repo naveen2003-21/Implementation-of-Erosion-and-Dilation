@@ -37,7 +37,7 @@ from matplotlib import pyplot as plt
 
 text_image = np.zeros((100,250),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
-cv2.putText(text_image,"Pranave",(5,70),font,2,(255),2,cv2.LINE_AA) 
+cv2.putText(text_image,"Naveen",(5,70),font,2,(255),2,cv2.LINE_AA) 
 plt.title("Original Image")
 plt.imshow(text_image,'bone')
 plt.axis('off')
